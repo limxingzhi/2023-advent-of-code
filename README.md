@@ -8,3 +8,9 @@
     - rename the test file as the text file
     - reverse after the tests are done
 
+## Day 2
+
+- use `head -n 5 2.input.txt` and to verify the `parseGame` funciton is working with just 5 lines.
+- part 1 of the solution already looks for the minimum numbers, so part 2 is just doing the math.
+
+
