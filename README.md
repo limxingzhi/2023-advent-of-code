@@ -20,3 +20,10 @@
 - I also used a table where they key is the position for each number, and the value is the number + its ID
     - the ID is important so we don't end up using the same number twice in the same ratio
 
+## Day 4
+
+- used a vim macro to transform the text into a JS object
+- solved via simple looping
+- solved part 2 via a queue, i.e. add every card into the queue and then count.
+    - first attempt with no cache, correct answer but took 6.7 seconds to run the answer lol
+
