@@ -26,4 +26,5 @@
 - solved via simple looping
 - solved part 2 via a queue, i.e. add every card into the queue and then count.
     - first attempt with no cache, correct answer but took 6.7 seconds to run the answer lol
+    - added a cache, now the code takes 0.8 seconds
 
