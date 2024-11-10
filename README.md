@@ -31,4 +31,4 @@
 ## Day 5
 - preprocessed the data into JS arrays
 - use reduce to treat the data as a pipelines of mappings and run through them
-
+- for part 2, I am too lazy to rewrite the algo to use range mapping, so I am just going to brute force it. But [here is video of a good solution](https://www.youtube.com/watch?v=NmxHw_bHhGM)
