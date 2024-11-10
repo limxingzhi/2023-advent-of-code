@@ -28,3 +28,7 @@
     - first attempt with no cache, correct answer but took 6.7 seconds to run the answer lol
     - added a cache, now the code takes 0.8 seconds
 
+## Day 5
+- preprocessed the data into JS arrays
+- use reduce to treat the data as a pipelines of mappings and run through them
+
