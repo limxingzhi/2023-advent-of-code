@@ -32,3 +32,19 @@
 - preprocessed the data into JS arrays
 - use reduce to treat the data as a pipelines of mappings and run through them
 - for part 2, I am too lazy to rewrite the algo to use range mapping, so I am just going to brute force it. But [here is video of a good solution](https://www.youtube.com/watch?v=NmxHw_bHhGM)
+
+## Day 6
+
+Now this is FUNN
+
+I derived a generic relationship between distance moved, race time, speed and hold time. Since the hold time and speed are the same value, we get a quadratic function.
+
+```
+d = (t - x)(x)
+0 = -x^2 + tx -d
+quadratic equation: A=-1, B=t, C=(-d)
+```
+
+Once we derived speed (or time-hold) used to break the record (aka x), we can then work upwards to find the first non-solution. Putting it through a set will then give us all of the answers.
+
+Note: since the values are all integers, we have to add both the floor and ceiling of the quadratic solution (because we don't know which one will beat the record distance). And then we filter.
